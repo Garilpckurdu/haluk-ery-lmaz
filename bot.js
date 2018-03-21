@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'hocam') {
-    	message.reply('evet evlat');
+    	message.reply('düt düt!');
   	}
 });
 
