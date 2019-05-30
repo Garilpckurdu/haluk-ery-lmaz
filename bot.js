@@ -29,11 +29,6 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === 'hocam bir espiri yapsanıza') {
-    	message.reply('Hacca giden dedeye ne denir? Hacim');
-  	}
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
